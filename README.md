@@ -13,7 +13,10 @@ TBD.
 
 ## Setup (Ubuntu)
 
-TBD
+```bash
+$ sudo apt-get -q -y install python-pip
+$ sudo pip install -r requirements.txt
+```
 
 ## Related Work
 
