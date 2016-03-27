@@ -1,0 +1,2 @@
+librato-metrics==0.8.6
+pymongo==3.2.2
