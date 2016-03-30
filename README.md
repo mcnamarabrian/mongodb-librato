@@ -9,7 +9,17 @@ This code is strongly influenced by [6wunderkinder's postgres-librato code](http
 
 ## Features
 
-TBD.
+Compatible with MongoDB 3.2.
+
+Exposes the following stats:
+
+ - `mongodb.connections` - gauge
+ - `mongodb.network` - counter
+ - `mongodb.mem` - gauge
+ - `mongodb.asserts` - counter
+ - `mongodb.globalLock.totalTime` - counter
+ - `mongodb.globalLock.activeClients` - gauge
+ - `mongodb.globalLock.currentQueue` - gauge
 
 ## Setup (Ubuntu)
 
