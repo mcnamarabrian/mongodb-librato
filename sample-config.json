@@ -1,14 +1,16 @@
 {
-    "database": {
+    "databases": [
+        {
             "name": "database_to_monitor",
             "librato_source": "the source name for librato",
             "hosts": "mongo1:27017,mongo2:27017,mongo3:27017",
             "user": "Some monitoring user",
-            "password": "Some monitoring user secret"
-    },
+            "password": "Some monitoring user secret",
+            "replica_set": "Some replica_set"
+        }
+    ],
     "sample_rate": 60,
     "librato": {
         "user": "some@email",
         "token": "S3cr3t!"
-    }
 }
